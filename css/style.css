@@ -187,7 +187,7 @@ a {
 .bnner_title{
 		font-size: 46pt;
 		color: #ffffff;
-		padding-top: 70px;
+		padding-top: 40px;
 		font-family: 'Raleway', sans-serif;;}
 
 
@@ -622,3 +622,57 @@ button.main_bt {
     color: #fff;
     
 }
+
+.probootsrap-nav {
+  font-family: "Work Sans", Arial, sans-serif;
+  /* background: #F4F9F4; */
+  margin-left: calc(75% + 5rem);
+  margin-right: 8rem;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
+  padding-top: .5em;
+  margin-top: 0rem;
+  margin-bottom: 2rem; }
+  @media screen and (max-width: 1003px) {
+    .probootsrap-nav {
+      text-align: center; } }
+  .probootsrap-nav ul {
+    margin: 0;
+    padding: 0; }
+    .probootsrap-nav ul li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block; }
+      @media screen and (max-width: 480px) {
+        .probootsrap-nav ul li {
+          display: block; } }
+      .probootsrap-nav ul li a {
+        padding: .5rem 0rem;
+        margin: 0 .5rem;
+        display: block;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        border-bottom: 2px solid transparent; }
+        @media screen and (max-width: 1431px) {
+          .probootsrap-nav ul li a {
+            margin: 0 .2rem; } }
+        @media screen and (max-width: 480px) {
+          .probootsrap-nav ul li a {
+            border-bottom: 3px solid transparent;
+            padding: .5rem 0rem; } }
+        .probootsrap-nav ul li a:hover {
+          color: rgba(0, 0, 0, 0.7); }
+      .probootsrap-nav ul li:first-child a {
+        margin-left: 0; }
+      .probootsrap-nav ul li.active a {
+        color: rgba(255, 255, 255, 0.7);
+        border-bottom: 2px solid #ffffff;}
+        @media screen and (max-width: 480px) {
+          .probootsrap-nav ul li.active a {
+            border-bottom: 2px solid transparent; } }
+
+
